@@ -1,7 +1,7 @@
 # $Id$
 
 pkgname=glacier-alarm-listener 
-pkgver=0.1.1
+pkgver=0.1.2
 pkgrel=1
 pkgdesc="Nemo alarm events notification popup"
 arch=('x86_64' 'aarch64')
@@ -13,7 +13,7 @@ depends=('qt5-glacier-app>=0.9'
 
 makedepends=('cmake' 'qt5-tools')
 source=("${url}/archive/refs/tags/$pkgver.tar.gz")
-sha256sums=('13dd8358d58e32a47cebd3ccab9644d43417550c35494f95c72c5fde96dc1787')
+sha256sums=('b9b201a9ae1e4cc2d123cb26b7cb8e17831f205676a1500ed3e0849b96974fa6')
 
 build() {
     cd $pkgname-$pkgver
